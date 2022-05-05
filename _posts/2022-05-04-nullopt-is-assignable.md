@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C++ | std::nullopt is assignable
+title: C++ | std::nullopt is assignable (Clickbait title)
 ---
 
 Yesterday I've written code as such:
