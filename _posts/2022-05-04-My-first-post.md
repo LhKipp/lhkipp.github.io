@@ -97,4 +97,6 @@ _M_get() noexcept
 
 But as we all know: 1 Minute of reading the docs can safe you hours of debugging. So why bother ¯\_(ツ)_/¯.
 
+This missconception also stemmed from my mental model of std::optional: It contains either a value or nothing (std::nullopt). That is wrong. Optional always contains (the memory of) a value, but it might not be initialized.
+
 2. Stop using operators - they often do not include sanity checks. Instead use the proper functions. In this case `emplace`.
